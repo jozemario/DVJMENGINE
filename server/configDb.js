@@ -4,7 +4,7 @@ module.exports =
   "port": "1433",
   "user": "sa",
   "password": "P0o9i8u7y6",
-  "database": "ENGINE"
+  "database": "LatinVector"
 };
 // Change the config settings to match your
 // SQL Server and database
