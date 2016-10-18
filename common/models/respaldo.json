@@ -1,0 +1,29 @@
+{
+  "name": "respaldo",
+  "plural": "respaldos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fecha": {
+      "type": "date",
+      "required": true
+    },
+    "size": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "id": {
+      "type": "string",
+      "id": true,
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
