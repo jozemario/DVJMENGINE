@@ -18,7 +18,7 @@ module.exports = function(Respaldo) {
            };
            cb(null, output);
         });
-          child.send({ hello: 'world' });
+          child.send({ msj: 'backup' });
 
           // Listen for an exit event:
           child.on('exit', function (exitCode) {
