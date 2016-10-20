@@ -25,7 +25,7 @@ module.exports = function(Respaldo) {
             console.log("Child exited with code: " + exitCode);
           });
 
-  }
+}
 Respaldo.remoteMethod(
   'getSchemaTables',
   {
